@@ -70,7 +70,7 @@
           <div class="col-6">
             <div class="form-group">
                 <label for="">Ingreso Cliente</label>
-                <input type="date" class="form-control" id="ingreso_cliente" name="ingreso_cliente" placeholder="" value="{{old('rtn', $clientes['FECHA_INGRESO_CLIENTE'])}}">
+                <input type="date" class="form-control" id="ingreso_cliente" name="ingreso_cliente" placeholder="" value="{{old('ingreso_cliente', $clientes['FECHA_INGRESO_CLIENTE'])}}">
                 @error('ingreso_cliente')
                 <span class="text-danger">{{$message}}</span>
                 @enderror
